@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS photos (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    fileName VARCHAR(255),
+    contentType VARCHAR(255),
+    data BINARY
+);
